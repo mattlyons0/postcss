@@ -1,5 +1,5 @@
 {
-  "name": "@mattlyons/postcss",
+  "name": "postcss",
   "version": "7.0.7",
   "description": "Tool for transforming styles with JS plugins",
   "engines": {
