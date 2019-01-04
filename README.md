@@ -7,6 +7,9 @@
 [chat-img]: https://img.shields.io/badge/Gitter-Join_the_PostCSS_chat-brightgreen.svg
 [chat]:     https://gitter.im/postcss/postcss
 
+### This is a fork of [PostCSS](https://github.com/postcss/postcss) to fix [https://github.com/shellscape/postcss-less/issues/130](https://github.com/shellscape/postcss-less/issues/130)
+- This package may be removed from NPM when said bug is fixed
+
 PostCSS is a tool for transforming styles with JS plugins.
 These plugins can lint your CSS, support variables and mixins,
 transpile future CSS syntax, inline images, and more.
