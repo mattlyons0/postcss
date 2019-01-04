@@ -60,6 +60,10 @@ export default function tokenizer (input, options = {}) {
       line += 1
     }
 
+    if (ignoreUnclosed && (code === SINGLE_QUOTE || code === DOUBLE_QUOTE)) {
+      code = SPACE
+    }
+
     switch (code) {
       case NEWLINE:
       case SPACE:
